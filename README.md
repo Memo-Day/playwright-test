@@ -28,7 +28,7 @@ npx playwright show-report      # Ouvrir le rapport HTML après un test
 npx playwright test --reporter=html # Forcer la génération du rapport HTML
 
 # Inspecteur Interactif :
-npx playwright codegen https://exemple.com # Ouvre un navigateur pour enregistrer des actions et générer du code de test
+npx playwright codegen https://playwright.dev # Ouvre un navigateur pour enregistrer des actions et générer du code de test
 
 # Traces et debugging : 
 npx playwright test --trace=on  # Enregistre les traces pour tous les tests
