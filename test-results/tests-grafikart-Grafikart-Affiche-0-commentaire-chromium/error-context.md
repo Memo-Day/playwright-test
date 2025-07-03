@@ -1,0 +1,221 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - list:
+    - listitem:
+      - link "Accueil":
+        - /url: /
+        - img
+    - listitem:
+      - link "Tutoriels":
+        - /url: /tutoriels
+        - img
+        - text: Tutoriels
+    - listitem:
+      - link "Cursus":
+        - /url: /cursus
+        - img
+        - text: Cursus
+    - listitem:
+      - link "Formations":
+        - /url: /formations
+        - img
+        - text: Formations
+    - listitem:
+      - link "Premium":
+        - /url: /premium
+        - img
+        - text: Premium
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+        - img
+        - text: Blog
+    - listitem:
+      - link "Forum":
+        - /url: /forum
+        - img
+        - text: Forum
+  - list:
+    - listitem
+    - listitem:
+      - button "Rechercher":
+        - img
+    - listitem:
+      - link "S'inscrire":
+        - /url: /inscription
+        - img
+        - text: S'inscrire
+      - text: ·
+      - link "Se connecter":
+        - /url: /connexion?redirect=/tutoriels/cypress-993
+- link "Tutoriels":
+  - /url: /tutoriels
+- img
+- link "JavaScript":
+  - /url: /tutoriels/javascript
+- img
+- link "Tests en JavaScript":
+  - /url: /formations/javascript-unit-test
+- img
+- link "Tests fonctionnels avec Cypress":
+  - /url: /tutoriels/cypress-993
+- heading "Tests fonctionnels avec Cypress" [level=1]
+- button "Voir la vidéo (47 min)":
+  - img
+  - text: Voir la vidéo
+  - emphasis: (47 min)
+- img
+- button:
+  - img
+- heading "Découverte de Mocha" [level=3]
+- link "Présentation 2 min":
+  - /url: /tutoriels/presentation-1088#autoplay
+  - button:
+    - img
+  - text: Présentation 2 min
+- link "Premiers tests 16 min":
+  - /url: /tutoriels/premiers-tests-651#autoplay
+  - button:
+    - img
+  - text: Premiers tests 16 min
+- link "Lignes de commandes 7 min":
+  - /url: /tutoriels/mocha-cli-652#autoplay
+  - button:
+    - img
+  - text: Lignes de commandes 7 min
+- link "Code asynchrone & Hooks 8 min":
+  - /url: /tutoriels/asynchronous-hooks-before-after-653#autoplay
+  - button:
+    - img
+  - text: Code asynchrone & Hooks 8 min
+- link "Gérer les assertions avec Chai 11 min":
+  - /url: /tutoriels/assertions-chai-654#autoplay
+  - button:
+    - img
+  - text: Gérer les assertions avec Chai 11 min
+- link "Spy, Mock et Stubs avec Sinon 32 min":
+  - /url: /tutoriels/sinon-mock-stubs-655#autoplay
+  - button:
+    - img
+  - text: Spy, Mock et Stubs avec Sinon 32 min
+- heading "Tester sur le navigateur" [level=3]
+- link "Tests côté navigateur 27 min":
+  - /url: /tutoriels/mocha-browser-656#autoplay
+  - button:
+    - img
+  - text: Tests côté navigateur 27 min
+- link "Tests multi-navigateurs avec Karma 35 min":
+  - /url: /tutoriels/karma-657#autoplay
+  - button:
+    - img
+  - text: Tests multi-navigateurs avec Karma 35 min
+- 'link "Tests end-to-end : Nightwatch.js 39 min"':
+  - /url: /tutoriels/end-to-end-tests-nightwatch-891#autoplay
+  - button:
+    - img
+  - text: "Tests end-to-end : Nightwatch.js 39 min"
+- link "Test end to end avec Playwright 45 min":
+  - /url: /tutoriels/test-end-to-end-playwright-2020#autoplay
+  - button:
+    - img
+  - text: Test end to end avec Playwright 45 min
+- heading "Tests fonctionnels" [level=3]
+- link "Tests fonctionnels avec Cypress 47 min":
+  - /url: /tutoriels/cypress-993#autoplay
+  - button:
+    - img
+  - text: Tests fonctionnels avec Cypress 47 min
+- heading "Jest" [level=3]
+- link "Jest 39 min":
+  - /url: /tutoriels/jest-test-framework-1202#autoplay
+  - button:
+    - img
+  - text: Jest 39 min
+- link "Pratiquons le TDD 20 min":
+  - /url: /tutoriels/tdd-pratique-javascript-1205#autoplay
+  - button:
+    - img
+  - text: Pratiquons le TDD 20 min
+- link "Senior":
+  - /url: /tutoriels?level=2
+- link "Télécharger la vidéo":
+  - /url: /tutoriels/993/video
+  - img
+  - text: Télécharger la vidéo
+- tabpanel "Description":
+  - paragraph:
+    - text: Dans cette vidéo nous allons découvrir
+    - link "Cypress":
+      - /url: https://www.cypress.io
+    - text: ", un outil qui permet de mettre en place simplement et rapidement des tests fonctionnels."
+  - text: 3 Commentaires Nom d'utilisateur
+  - textbox "Nom d'utilisateur"
+  - text: Votre message
+  - textbox
+  - button "Envoyer"
+  - separator
+  - text: null John Doe comm Il y a 9 mois null null John Doe comm Il y a 9 mois null null John Doe comm Il y a 9 mois null Publié Il y a 7 ans Technologies utilisées
+  - link "JavaScript":
+    - /url: /tutoriels/javascript
+  - strong: "Auteur :"
+  - link "Grafikart":
+    - /url: /profil/1
+  - text: Partager
+  - link:
+    - /url: https://twitter.com/intent/tweet?via=grafikart_fr&tw_p=tweetbutton&url=https%3A%2F%2Fgrafikart.fr%2Ftutoriels%2Fcypress-993
+  - link:
+    - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrafikart.fr%2Ftutoriels%2Fcypress-993
+  - link "Proposer une correction":
+    - /url: /revision/993
+    - img
+    - text: Proposer une correction
+- contentinfo:
+  - text: Me retrouver
+  - paragraph: Après avoir appris sur Internet quoi de plus normal que de partager à son tour ? Passionné par le web depuis un peu plus de 15 ans maintenant j'aime partager mes compétences et mes découvertes avec les personnes qui ont cette même passion pour le web
+  - link "Flux RSS":
+    - /url: http://feeds.feedburner.com/Grafikart
+  - link "Github":
+    - /url: https://github.com/grafikart
+  - link "Youtube":
+    - /url: https://www.youtube.com/user/grafikarttv?sub_confirmation=1
+  - link "Twitter":
+    - /url: https://twitter.com/grafikart_fr
+  - link "Twitch":
+    - /url: https://www.twitch.tv/grafikart
+  - link:
+    - /url: https://www.infomaniak.com/goto/fr/hosting.managed-cloud?utm_term=59f74db50448d
+  - text: Me contacter
+  - list:
+    - listitem:
+      - link "Par email":
+        - /url: /contact
+        - img
+        - text: Par email
+    - listitem:
+      - link "Tchat":
+        - /url: /tchat
+        - img
+        - text: Tchat
+    - listitem:
+      - link "Chaine youtube":
+        - /url: https://www.youtube.com/user/grafikarttv
+        - img
+        - text: Chaine youtube
+    - listitem:
+      - link "A propos":
+        - /url: /a-propos
+        - img
+        - text: A propos
+    - listitem:
+      - link "Politique de confidentialité":
+        - /url: /politique-de-confidentialite
+        - img
+        - text: Politique de confidentialité
+  - text: Thème
+  - checkbox "Changer de thème"
+  - img
+  - img
+- img
+```
